@@ -1,0 +1,16 @@
+.header {
+
+    &__image{
+        height: 1.875rem;
+        padding-top: 2.375rem;
+        padding-right: 13.4375rem;
+        padding-bottom: 1.375rem;
+        padding-left: 2.5rem;
+
+        @include breakpoint-up(large) {
+            height: 3rem;
+            padding-bottom: 2rem;
+        }
+    }
+    
+}

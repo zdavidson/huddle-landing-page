@@ -1,0 +1,23 @@
+.footer {
+    
+    margin: 2.4375rem 7rem;
+    margin-top: 4rem;
+
+    @include breakpoint-up(large) {
+        margin-left: 85%;
+        margin-top: 2.5rem;
+        margin-right: 1rem;
+    }
+
+
+    i {
+        font-size: 1.9375rem;
+        padding: 0 0.47rem;
+        transition: color 200ms ease-in-out;
+
+        &:hover{
+            color: $softMagenta;
+        }
+
+    }
+}
